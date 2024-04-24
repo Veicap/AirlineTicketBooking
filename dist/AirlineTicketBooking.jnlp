@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AirlineTicketBooking.jnlp">
+  <information>
+    <title>AirlineTicketBooking</title>
+    <vendor>Legion</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AirlineTicketBooking.jar" size="13451" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\mysql-connector-j-8.3.0.jar" size="2495536" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="airlineticketbooking.AirlineTicketBooking"  name="AirlineTicketBooking" />
+  <update check="always"/>
+</jnlp>
